@@ -1,0 +1,60 @@
+.card-container{
+    height: 360px;
+    /* background: red; */
+    width: 300px;
+    border-radius: 23px;
+    background: #e0e0e0;
+    box-shadow: 20px 20px 39px #bababa, -20px -20px 39px #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-calendar{
+    top: 12px;
+        height: 114px;
+        left: 10px;
+        border-radius: 18px;
+        width: 176px;
+        /* background: white; */
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient( 
+230deg, #ffffff, #d8d8d8);
+        box-shadow: 5px 5px 10px #bcbcbc, -5px -5px 10px #ffffff;
+}
+
+.cardbutton{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    bottom: 10px;
+}
+.cardbutton > button{
+    height: 40px;
+        width: 150px;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+}
+.cardbutton > button:hover{
+    background-color: #0000ddbf;
+    color: white;
+}
+
+
+.next_container{
+    display: flex;
+    justify-content: center;
+}
+.totalCards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.individualCard{
+    margin: 5%;
+}
